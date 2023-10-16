@@ -17,8 +17,8 @@ int main() {
   printf("Child Pid: %d has completed.\n",getpid());
   exit(0);
   
-  wait(NULL);
   pid_t child_2 = fork();
+  wait(NULL);
   if (child_2 == 0){
     for (int i = 0; i < rand_num; i++){
       printf("Child Pid: %d is going to sleep!\n", getpid());
