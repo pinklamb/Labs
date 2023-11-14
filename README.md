@@ -1,2 +1,2 @@
-# Program2
+# Labs for OS
 Lab 2 for OS
