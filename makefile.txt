@@ -1,0 +1,2 @@
+prog3: Lab2.c
+	gcc Lab2.c -o prog3
