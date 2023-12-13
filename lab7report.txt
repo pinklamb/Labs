@@ -1,0 +1,36 @@
+Chanelle LeGrand
+
+December 11th,2023
+
+Operating Systems
+
+Dr. Burge
+
+
+Chanelle LeGrand
+
+December 11th,2023
+
+Operating Systems
+
+Dr. Burge
+
+
+
+				Project Shell Report
+
+  To begin, the provided code is like a simple shell program that takes whatinput,
+splits it into parts called tokens, and performs commands based on said input. 
+When a user inputs text, the code dissects it into smaller fragments, known as tokens. 
+This breakdown relies on identifying spaces or specific characters like tabs, systematically cataloging these fragments 
+to comprehend the user's intended action. For instance, inputting 'exit' signifies a request to exit the program, 
+prompting the shell to terminate its operation.It can also run commands by creating child processes, 
+which is essentially just a copy of or the code.Another example is  a simple command like 'ls' or 'mkdir'. 
+The code is careful to check if everything is working as it should. If something goes wrong, it tells you what's 
+not working and stops trying to do anything else by throwing an error , thus letting you know something is wrong 
+and emphasizing the importance of reliability. This error management scheme acts as a safeguard, promptly 
+signaling any anomalies encountered during command execution. Lastly, it lets you know what directory you are currently in.
+ In conclusion, this code helps understand what you want to do when you give an input. It's a basic shell that can understand 
+simple commands but could be improved to handle more complex tasks like changing settings or doing multiple things at once.
+
+
